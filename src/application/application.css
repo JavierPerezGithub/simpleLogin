@@ -1,0 +1,20 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.corner{
+	-fx-background-radius: 53px 53px 53px 53px;
+	-fx-background-color: white;
+	
+}
+
+.anchor{
+    -fx-background-color: linear-gradient(#86D5D3, #6573B0);
+}
+   
+.letraTitulo{	
+	-fx-font-size: 26px;
+} 
+
+.boton{
+	-fx-background-color: #d174e4;
+	-fx-text-fill: white;
+}
