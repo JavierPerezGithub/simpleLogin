@@ -7,7 +7,18 @@ import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
 
 
+/**
+ * The main class
+ * @author Javier Pérez
+ * @version 1-2017
+ * @since 24-11-2017
+ * @see SampleController
+ */
 public class Main extends Application {
+	
+	/**
+	 * @see Override start
+	 */
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -21,6 +32,11 @@ public class Main extends Application {
 		}
 	}
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		launch(args);
 	}
